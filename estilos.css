@@ -8,7 +8,7 @@
 }
 .curved {
     position: relative;
-    background: #620eff;
+    background-color: crimson;
     height: 15vh;
     border-bottom-left-radius: 50% 18%;
     border-bottom-right-radius: 50% 18%;
@@ -23,4 +23,8 @@
   hr {
     height: 2px;
     background-color: black;
+  }
+  footer div a {
+    color: crimson;
+    text-decoration: none;
   }
