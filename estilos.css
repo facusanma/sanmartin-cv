@@ -1,30 +1,38 @@
 @charset "utf-8";
 /* CSS Document */
-.datos {
+.botonera a{
+  margin: 10px;
+  padding: 10px 20px;
+  background-color:#fa8500;
+  color: black;
+  font-size: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.botonera a:hover {
+  color: white;
+  background-color: black
+}
+nav ul li {
+  display: inline;
+}
+nav ul {
+  list-style: none;
+}
+
+.Experiencia {
     list-style-type: none;
 }
 .educacion {
     list-style-type: none;
 }
-.curved {
-    position: relative;
-    background-color: crimson;
-    height: 15vh;
-    border-bottom-left-radius: 50% 18%;
-    border-bottom-right-radius: 50% 18%;
-    margin: 0;
-  }
-  .cv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-  }
+.Datos {
+  list-style-type: none;
+}
   hr {
     height: 2px;
     background-color: black;
-  }
-  footer div a {
-    color: crimson;
-    text-decoration: none;
   }
