@@ -1,11 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
+h1{
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+header{
+  background-color: rgb(40, 55, 71);
+  padding: 10px 5px;
+  border-radius: 10px ;
+}
 .botonera a{
-  margin: 10px;
+  margin: 0 10px;
   padding: 10px 20px;
   background-color:#fa8500;
   color: black;
-  font-size: 15px;
+  font-size: 25px;
   border-radius: 25px;
   cursor: pointer;
   font-family: sans-serif;
@@ -16,11 +30,55 @@
   color: white;
   background-color: black
 }
+.botonera {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
 nav ul li {
   display: inline;
+  flex-direction: row;
+  justify-content: center;
 }
 nav ul {
   list-style: none;
+}
+main {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+}
+.foto{
+  border-radius: 30px;
+  border: 10px;
+}
+.Primeraparte{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 1000px 0px 0px;
+  border: 2px solid #fa8500;
+  border-radius: 30px;
+  justify-items: flex-start;
+}
+#sobremi{ 
+  padding:10px 40px 0px 30px;
+}
+h2 {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-weight: 800;
+  font-style: normal;
+}
+h3{
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .Experiencia {
