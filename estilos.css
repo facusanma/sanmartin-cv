@@ -81,8 +81,38 @@ h3{
   font-style: normal;
 }
 
-.Experiencia {
-    list-style-type: none;
+.Wonder {
+  background-color: #f7ca8e;
+  display: inline-flex;
+  flex-direction: column;
+  width: 35%;
+  border: 2px ;
+  border-radius: 5px;
+  margin: 20px 25px;
+  justify-content: center;
+  padding: 5px 25px 8px 25px;
+}
+.Jasa {
+  background-color: #f7ca8e;
+  display: inline-flex;
+  flex-direction: column;
+  width: 35%;
+  border: 2px;
+  border-radius: 5px;
+  margin: 20px 25px;
+  justify-content: center;
+  padding: 5px 25px 8px 25px;
+}
+.Clipix {
+  background-color: #f7ca8e;
+  display: inline-flex;
+  flex-direction: column;
+  width: 35%;
+  border: 2px ;
+  border-radius: 5px;
+  margin: 20px 25px;
+  justify-content: center;
+  padding: 5px 25px 8px 25px;
 }
 .educacion {
     list-style-type: none;
