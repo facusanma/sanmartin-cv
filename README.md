@@ -1,3 +1,3 @@
-# Éste es mi primer TP
+# Entrega final TP1
 ## Facundo CV
-26/8 estoy probando cosas con css, todavía me falta.
+Trabaje sobre una resolución de pantalla de 1920x1080
